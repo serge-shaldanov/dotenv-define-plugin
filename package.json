@@ -16,6 +16,13 @@
     },
     "author": "Sergey Shaldanov <sergey.shaldanov@gmail.com> (https://github.com/serge-shaldanov)",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/serge-shaldanov/dotenv-define-plugin.git"
+    },
+    "bugs": {
+        "url": "https://github.com/serge-shaldanov/dotenv-define-plugin/issues"
+    },
     "peerDependencies": {
         "dotenv": "^16.3.1",
         "webpack": "^5.20.0"
