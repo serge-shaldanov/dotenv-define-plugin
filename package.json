@@ -1,0 +1,28 @@
+{
+    "name": "dotenv-define-plugin",
+    "version": "1.0.0",
+    "description": "Webpack plugin for easily defining dotenv variables.",
+    "keywords": [
+        "webpack",
+        "dotenv",
+        "plugin",
+        "define"
+    ],
+    "main": "./lib/src/index.js",
+    "types": "./lib/src/index.d.ts",
+    "type": "commonjs",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "Sergey Shaldanov <sergey.shaldanov@gmail.com> (https://github.com/serge-shaldanov)",
+    "license": "MIT",
+    "peerDependencies": {
+        "dotenv": "^16.3.1",
+        "webpack": "^5.20.0"
+    },
+    "devDependencies": {
+        "@types/dotenv": "^8.2.0",
+        "@types/node": "^20.7.0",
+        "typescript": "^5.2.2"
+    }
+}
